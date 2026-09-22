@@ -1,6 +1,6 @@
 ## Getting Started
 
-Taller Asociacion
+Taller Composicion
 
 ## Folder Structure
 
