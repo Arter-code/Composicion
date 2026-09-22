@@ -1,8 +1,30 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
 
-        //en la clase vuelo no se esta validando el estado del asiento (modificar eso) en el metodo embarcar
+        Vuelo vuelo = new Vuelo("Bogota", "Medellin", 5, "AV123");
+
+        vuelo.monstrarInfo();
+
+        System.out.println();
+
+        vuelo.mostrarAsientos();
+
+        System.out.println();
+
+        vuelo.embarcar("A1");
+        vuelo.embarcar("A3");
+        vuelo.embarcar("A1");
+
+        System.out.println();
+
+        vuelo.mostrarAsientos();
+
+        System.out.println();
+
+        vuelo.desembarcar("A1");
+
+        System.out.println();
         
+        vuelo.mostrarAsientos();
     }
 }
